@@ -16,7 +16,7 @@ var (
 		"https://blog.cloudflare.com/cdn-cgi/trace",
 		"https://dash.cloudflare.com/cdn-cgi/trace",
 		"https://developers.cloudflare.com/cdn-cgi/trace",
-		"https://www.cloudflare-cn.com/cdn-cgi/trace",
+		"https://www.cloudflare-cn.com/cdn-cgi/trace"
 	}
 	CachedIP, GeoQueryIP, CachedCountryCode string
 	httpClientV4                            = util.NewSingleStackHTTPClient(time.Second*20, time.Second*5, time.Second*10, false)
